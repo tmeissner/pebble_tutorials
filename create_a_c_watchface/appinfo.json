@@ -1,0 +1,54 @@
+{
+  "uuid": "3c6e0682-a917-4283-a27e-349f2de629fa",
+  "shortName": "create_a_c_watchface",
+  "longName": "create_a_c_watchface",
+  "companyName": "goodcleanfun",
+  "versionLabel": "1.0",
+  "sdkVersion": "3",
+  "targetPlatforms": ["aplite", "basalt"],
+  "watchapp": {
+    "watchface": true
+  },
+  "appKeys": {
+    "dummy": 0
+  },
+  "capabilities":
+    [ "location" ],
+  "appKeys": {
+    "KEY_TEMPERATURE": 0,
+    "KEY_CONDITIONS": 1
+  },
+  "resources": {
+    "media": [
+      {
+        "type": "font",
+        "name": "FONT_PERFECT_DOS_16",
+        "file": "fonts/perfect-dos-vga.ttf",
+        "compatibility":"2.7"
+      },
+      {
+        "type": "font",
+        "name": "FONT_PERFECT_DOS_20",
+        "file": "fonts/perfect-dos-vga.ttf",
+        "compatibility":"2.7"
+      },
+      {
+        "type": "font",
+        "name": "FONT_PERFECT_DOS_24",
+        "file": "fonts/perfect-dos-vga.ttf",
+        "compatibility":"2.7"
+      },
+      {
+        "type": "font",
+        "name": "FONT_PERFECT_DOS_48",
+        "file": "fonts/perfect-dos-vga.ttf",
+        "compatibility":"2.7"
+      },
+      {
+        "type": "png",
+        "name": "TUTORIAL_BACKGROUND",
+        "file": "images/background.png"
+      }
+    ]
+  }
+}
